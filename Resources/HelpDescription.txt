@@ -1,0 +1,13 @@
+﻿Browse for the folder containing the original image files, or you can enter the location manually.
+
+Next change the Image Details and/or Folder Details that will be used for the new web images, or just use the defaults.
+
+Each web image maintains the original aspect ratio using the "Max Height" and "Max Width", and is compressed based on the "JPG Quality Percentage" (100 = lowest compression/highest quality).
+
+A new folder will be created for the web images, inside the original images folder, using the "New Folder Name".
+
+The name for each web image will be the same as the original. If a "File Name Suffix" is provided, this will be added at the end of the original name.
+
+If the images folder contains other folders that you want included in the process, then select the "Include Subfolders" checkbox.
+
+Now click the "Create Images" button!
