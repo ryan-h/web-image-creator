@@ -95,6 +95,25 @@ namespace WebImageCreator.Core
             return arrImageData;
         }
 
+        /// <summary>
+        /// Gets a file name for the new optimized image.
+        /// </summary>
+        /// <param name="szOrigImageName"></param>
+        /// <param name="szFileNameSuffix"></param>
+        /// <returns>filename</returns>
+        public static String GetNewImageName(String szOrigImageName, String szFileNameSuffix)
+        {
+            string szName = Path.GetFileNameWithoutExtension(szOrigImageName);
+            string szExt = Path.GetExtension(szOrigImageName).ToLower();
+
+            if (!(szExt.Equals(".jpg") || szExt.Equals(".jpeg")))
+            {
+                szExt = ".jpg";
+            }
+
+            return String.Concat(szName, szFileNameSuffix, szExt);
+        }
+
         #region Private Methods
 
         private static ImageCodecInfo GetEncoderInfo(String szMimeType)

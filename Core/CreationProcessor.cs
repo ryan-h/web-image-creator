@@ -187,7 +187,7 @@ namespace WebImageCreator.Core
                 }
 
                 //get the path and name for the new image
-                String szNewImagePath = Path.Combine(fiImageFile.DirectoryName, _objInputData.NewFolderName, String.Concat(Path.GetFileNameWithoutExtension(szFilePath), _objInputData.FileNameSuffix, Path.GetExtension(szFilePath)));
+                String szNewImagePath = Path.Combine(fiImageFile.DirectoryName, _objInputData.NewFolderName, Core.ImageCreator.GetNewImageName(Path.GetFileName(szFilePath), _objInputData.FileNameSuffix));
 
                 //save the image file to disk
                 File.WriteAllBytes(szNewImagePath, arrNewImageData);
