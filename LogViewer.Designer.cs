@@ -82,7 +82,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "LogViewer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Log Viewer";
+            this.Text = "WIC - Log Viewer";
             ((System.ComponentModel.ISupportInitialize)(this.TableViewMain)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
