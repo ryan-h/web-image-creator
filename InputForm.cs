@@ -169,6 +169,7 @@ namespace WebImageCreator
                                 if (_objCancelTokenSource.IsCancellationRequested)
                                 {
                                     Core.StatusMessage.Write(Core.StatusMessage.EventType.Warning, String.Format("Image creation has been stopped ({0} image{1} created).", _nImagesCreatedCnt, (_nImagesCreatedCnt > 1 ? "s were" : "was")));
+                                    lnkImageFolder.Visible = true;
                                 }
                                 else
                                 {

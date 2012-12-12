@@ -181,9 +181,12 @@ namespace WebImageCreator.Core
                     return;
                 }
 
-                using (Image objImage = Image.FromStream(fiImageFile.OpenRead()))
-                {   //create the new optimized image
-                    arrNewImageData = Core.ImageCreator.Create(objImage, _objInputData.ImageMaxWidth, _objInputData.ImageMaxHeight, _objInputData.JPGQualityPercentage);
+                using (FileStream fsImage = fiImageFile.OpenRead())
+                {
+                    using (Image objImage = Image.FromStream(fsImage))
+                    {   //create the new optimized image
+                        arrNewImageData = Core.ImageCreator.Create(objImage, _objInputData.ImageMaxWidth, _objInputData.ImageMaxHeight, _objInputData.JPGQualityPercentage);
+                    }
                 }
 
                 //get the path and name for the new image
