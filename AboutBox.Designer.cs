@@ -41,23 +41,24 @@
             // 
             this.okButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.okButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.okButton.Location = new System.Drawing.Point(466, 347);
+            this.okButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.okButton.Location = new System.Drawing.Point(466, 344);
             this.okButton.Name = "okButton";
-            this.okButton.Size = new System.Drawing.Size(87, 25);
+            this.okButton.Size = new System.Drawing.Size(87, 28);
             this.okButton.TabIndex = 24;
             this.okButton.Text = "&OK";
             // 
             // tbDescription
             // 
             this.tbDescription.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbDescription.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbDescription.Location = new System.Drawing.Point(7, 126);
+            this.tbDescription.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbDescription.Location = new System.Drawing.Point(7, 127);
             this.tbDescription.Margin = new System.Windows.Forms.Padding(7, 3, 3, 3);
             this.tbDescription.Multiline = true;
             this.tbDescription.Name = "tbDescription";
             this.tbDescription.ReadOnly = true;
             this.tbDescription.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.tbDescription.Size = new System.Drawing.Size(546, 205);
+            this.tbDescription.Size = new System.Drawing.Size(546, 204);
             this.tbDescription.TabIndex = 23;
             this.tbDescription.TabStop = false;
             this.tbDescription.Text = "Description";
@@ -65,8 +66,8 @@
             // labelCopyright
             // 
             this.labelCopyright.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelCopyright.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCopyright.Location = new System.Drawing.Point(7, 71);
+            this.labelCopyright.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCopyright.Location = new System.Drawing.Point(7, 72);
             this.labelCopyright.Margin = new System.Windows.Forms.Padding(7, 0, 3, 0);
             this.labelCopyright.MaximumSize = new System.Drawing.Size(0, 20);
             this.labelCopyright.Name = "labelCopyright";
@@ -78,7 +79,7 @@
             // labelVersion
             // 
             this.labelVersion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelVersion.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelVersion.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelVersion.Location = new System.Drawing.Point(7, 37);
             this.labelVersion.Margin = new System.Windows.Forms.Padding(7, 0, 3, 0);
             this.labelVersion.MaximumSize = new System.Drawing.Size(0, 20);
@@ -91,7 +92,7 @@
             // labelProductName
             // 
             this.labelProductName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelProductName.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelProductName.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelProductName.Location = new System.Drawing.Point(7, 0);
             this.labelProductName.Margin = new System.Windows.Forms.Padding(7, 0, 3, 0);
             this.labelProductName.MaximumSize = new System.Drawing.Size(0, 20);
@@ -117,7 +118,7 @@
             this.tlpHelpBox.Name = "tlpHelpBox";
             this.tlpHelpBox.RowCount = 6;
             this.tlpHelpBox.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tlpHelpBox.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 34F));
+            this.tlpHelpBox.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tlpHelpBox.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.482993F));
             this.tlpHelpBox.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.163265F));
             this.tlpHelpBox.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.90476F));
@@ -129,10 +130,10 @@
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 108);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(3, 107);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 15);
+            this.label1.Size = new System.Drawing.Size(122, 17);
             this.label1.TabIndex = 25;
             this.label1.Text = "Instructions for use:";
             // 

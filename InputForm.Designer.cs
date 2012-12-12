@@ -74,10 +74,10 @@
             // lnkImageFolder
             // 
             this.lnkImageFolder.AutoSize = true;
-            this.lnkImageFolder.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkImageFolder.Location = new System.Drawing.Point(436, 226);
+            this.lnkImageFolder.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkImageFolder.Location = new System.Drawing.Point(377, 214);
             this.lnkImageFolder.Name = "lnkImageFolder";
-            this.lnkImageFolder.Size = new System.Drawing.Size(114, 15);
+            this.lnkImageFolder.Size = new System.Drawing.Size(111, 13);
             this.lnkImageFolder.TabIndex = 11;
             this.lnkImageFolder.TabStop = true;
             this.lnkImageFolder.Text = "Open Images Folder";
@@ -94,6 +94,7 @@
             // 
             // clearErrorLogsToolStripMenuItem
             // 
+            this.clearErrorLogsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearErrorLogsToolStripMenuItem.Name = "clearErrorLogsToolStripMenuItem";
             this.clearErrorLogsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.clearErrorLogsToolStripMenuItem.Text = "Clear";
@@ -101,6 +102,7 @@
             // 
             // viewErrorLogsToolStripMenuItem
             // 
+            this.viewErrorLogsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewErrorLogsToolStripMenuItem.Name = "viewErrorLogsToolStripMenuItem";
             this.viewErrorLogsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.viewErrorLogsToolStripMenuItem.Text = "View";
@@ -118,14 +120,14 @@
             // 
             // StatusStripEvents
             // 
-            this.StatusStripEvents.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StatusStripEvents.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StatusStripEvents.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblStatusMessage,
             this.StatusEventMessage});
-            this.StatusStripEvents.Location = new System.Drawing.Point(0, 293);
+            this.StatusStripEvents.Location = new System.Drawing.Point(0, 275);
             this.StatusStripEvents.Name = "StatusStripEvents";
             this.StatusStripEvents.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
-            this.StatusStripEvents.Size = new System.Drawing.Size(566, 22);
+            this.StatusStripEvents.Size = new System.Drawing.Size(504, 22);
             this.StatusStripEvents.SizingGrip = false;
             this.StatusStripEvents.TabIndex = 21;
             // 
@@ -141,7 +143,7 @@
             this.StatusEventMessage.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.StatusEventMessage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.StatusEventMessage.Name = "StatusEventMessage";
-            this.StatusEventMessage.Size = new System.Drawing.Size(549, 17);
+            this.StatusEventMessage.Size = new System.Drawing.Size(456, 17);
             this.StatusEventMessage.Spring = true;
             this.StatusEventMessage.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.StatusEventMessage.Visible = false;
@@ -153,14 +155,14 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.menuStrip1.BackColor = System.Drawing.SystemColors.Control;
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
-            this.menuStrip1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.logToolStripMenuItem,
             this.aboutToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(453, 9);
+            this.menuStrip1.Location = new System.Drawing.Point(392, 9);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(0);
-            this.menuStrip1.Size = new System.Drawing.Size(95, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(96, 24);
             this.menuStrip1.TabIndex = 15;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -172,20 +174,20 @@
             // lblOpt
             // 
             this.lblOpt.AutoSize = true;
-            this.lblOpt.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOpt.Location = new System.Drawing.Point(219, 86);
+            this.lblOpt.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOpt.Location = new System.Drawing.Point(209, 78);
             this.lblOpt.Name = "lblOpt";
-            this.lblOpt.Size = new System.Drawing.Size(64, 15);
+            this.lblOpt.Size = new System.Drawing.Size(57, 13);
             this.lblOpt.TabIndex = 0;
             this.lblOpt.Text = "(optional)";
             // 
             // lblNewFolder
             // 
             this.lblNewFolder.AutoSize = true;
-            this.lblNewFolder.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNewFolder.Location = new System.Drawing.Point(7, 31);
+            this.lblNewFolder.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNewFolder.Location = new System.Drawing.Point(5, 28);
             this.lblNewFolder.Name = "lblNewFolder";
-            this.lblNewFolder.Size = new System.Drawing.Size(121, 17);
+            this.lblNewFolder.Size = new System.Drawing.Size(105, 15);
             this.lblNewFolder.TabIndex = 0;
             this.lblNewFolder.Text = "New Folder Name:";
             this.lblNewFolder.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -198,10 +200,10 @@
             this.gbFolderDetails.Controls.Add(this.txtNewFolder);
             this.gbFolderDetails.Controls.Add(this.lblFileSuffix);
             this.gbFolderDetails.Controls.Add(this.txtFileSuffix);
-            this.gbFolderDetails.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbFolderDetails.Location = new System.Drawing.Point(258, 95);
+            this.gbFolderDetails.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbFolderDetails.Location = new System.Drawing.Point(217, 95);
             this.gbFolderDetails.Name = "gbFolderDetails";
-            this.gbFolderDetails.Size = new System.Drawing.Size(290, 128);
+            this.gbFolderDetails.Size = new System.Drawing.Size(271, 116);
             this.gbFolderDetails.TabIndex = 14;
             this.gbFolderDetails.TabStop = false;
             this.gbFolderDetails.Text = "Folder Details";
@@ -209,20 +211,20 @@
             // chkInclSubfolders
             // 
             this.chkInclSubfolders.AutoSize = true;
-            this.chkInclSubfolders.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkInclSubfolders.Location = new System.Drawing.Point(10, 93);
+            this.chkInclSubfolders.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkInclSubfolders.Location = new System.Drawing.Point(8, 88);
             this.chkInclSubfolders.Name = "chkInclSubfolders";
-            this.chkInclSubfolders.Size = new System.Drawing.Size(136, 21);
+            this.chkInclSubfolders.Size = new System.Drawing.Size(124, 19);
             this.chkInclSubfolders.TabIndex = 8;
             this.chkInclSubfolders.Text = "Include Subfolders";
             this.chkInclSubfolders.UseVisualStyleBackColor = true;
             // 
             // txtNewFolder
             // 
-            this.txtNewFolder.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNewFolder.Location = new System.Drawing.Point(128, 28);
+            this.txtNewFolder.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNewFolder.Location = new System.Drawing.Point(118, 25);
             this.txtNewFolder.Name = "txtNewFolder";
-            this.txtNewFolder.Size = new System.Drawing.Size(155, 25);
+            this.txtNewFolder.Size = new System.Drawing.Size(145, 22);
             this.txtNewFolder.TabIndex = 6;
             this.txtNewFolder.Text = "Web_Images";
             this.txtNewFolder.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNewFolder_KeyPress);
@@ -230,49 +232,49 @@
             // lblFileSuffix
             // 
             this.lblFileSuffix.AutoSize = true;
-            this.lblFileSuffix.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFileSuffix.Location = new System.Drawing.Point(7, 62);
+            this.lblFileSuffix.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFileSuffix.Location = new System.Drawing.Point(5, 58);
             this.lblFileSuffix.Name = "lblFileSuffix";
-            this.lblFileSuffix.Size = new System.Drawing.Size(111, 17);
+            this.lblFileSuffix.Size = new System.Drawing.Size(95, 15);
             this.lblFileSuffix.TabIndex = 0;
             this.lblFileSuffix.Text = "File Name Suffix:";
             this.lblFileSuffix.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // txtFileSuffix
             // 
-            this.txtFileSuffix.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFileSuffix.Location = new System.Drawing.Point(128, 58);
+            this.txtFileSuffix.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFileSuffix.Location = new System.Drawing.Point(118, 55);
             this.txtFileSuffix.Name = "txtFileSuffix";
-            this.txtFileSuffix.Size = new System.Drawing.Size(155, 25);
+            this.txtFileSuffix.Size = new System.Drawing.Size(145, 22);
             this.txtFileSuffix.TabIndex = 7;
             this.txtFileSuffix.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtFileSuffix_KeyPress);
             // 
             // pbMain
             // 
             this.pbMain.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pbMain.Location = new System.Drawing.Point(220, 246);
+            this.pbMain.Location = new System.Drawing.Point(207, 230);
             this.pbMain.Maximum = 0;
             this.pbMain.Name = "pbMain";
-            this.pbMain.Size = new System.Drawing.Size(330, 27);
+            this.pbMain.Size = new System.Drawing.Size(281, 28);
             this.pbMain.Step = 1;
             this.pbMain.TabIndex = 13;
             // 
             // lblPath
             // 
             this.lblPath.AutoSize = true;
-            this.lblPath.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPath.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPath.Location = new System.Drawing.Point(14, 45);
             this.lblPath.Name = "lblPath";
-            this.lblPath.Size = new System.Drawing.Size(79, 17);
+            this.lblPath.Size = new System.Drawing.Size(70, 15);
             this.lblPath.TabIndex = 12;
             this.lblPath.Text = "Folder Path:";
             // 
             // btnBrowse
             // 
-            this.btnBrowse.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBrowse.Location = new System.Drawing.Point(478, 63);
+            this.btnBrowse.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBrowse.Location = new System.Drawing.Point(418, 59);
             this.btnBrowse.Name = "btnBrowse";
-            this.btnBrowse.Size = new System.Drawing.Size(70, 27);
+            this.btnBrowse.Size = new System.Drawing.Size(70, 28);
             this.btnBrowse.TabIndex = 2;
             this.btnBrowse.Text = "Browse...";
             this.btnBrowse.UseVisualStyleBackColor = true;
@@ -280,10 +282,10 @@
             // 
             // btnClose
             // 
-            this.btnClose.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.Location = new System.Drawing.Point(17, 246);
+            this.btnClose.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.Location = new System.Drawing.Point(15, 230);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(85, 27);
+            this.btnClose.Size = new System.Drawing.Size(80, 28);
             this.btnClose.TabIndex = 9;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -292,10 +294,10 @@
             // btnCreate
             // 
             this.btnCreate.Enabled = false;
-            this.btnCreate.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCreate.Location = new System.Drawing.Point(108, 246);
+            this.btnCreate.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCreate.Location = new System.Drawing.Point(101, 230);
             this.btnCreate.Name = "btnCreate";
-            this.btnCreate.Size = new System.Drawing.Size(105, 27);
+            this.btnCreate.Size = new System.Drawing.Size(100, 28);
             this.btnCreate.TabIndex = 10;
             this.btnCreate.Text = "Create Images";
             this.btnCreate.UseVisualStyleBackColor = true;
@@ -303,30 +305,30 @@
             // 
             // txtImageFolderPath
             // 
-            this.txtImageFolderPath.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtImageFolderPath.Location = new System.Drawing.Point(17, 65);
+            this.txtImageFolderPath.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtImageFolderPath.Location = new System.Drawing.Point(15, 62);
             this.txtImageFolderPath.Name = "txtImageFolderPath";
-            this.txtImageFolderPath.Size = new System.Drawing.Size(454, 25);
+            this.txtImageFolderPath.Size = new System.Drawing.Size(397, 25);
             this.txtImageFolderPath.TabIndex = 1;
             this.txtImageFolderPath.TextChanged += new System.EventHandler(this.txtImageFolderPath_TextChanged);
             // 
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(11, 9);
+            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Location = new System.Drawing.Point(12, 5);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(246, 31);
+            this.lblTitle.Size = new System.Drawing.Size(268, 37);
             this.lblTitle.TabIndex = 11;
             this.lblTitle.Text = "Web Image Creator";
             // 
             // lblQuality
             // 
             this.lblQuality.AutoSize = true;
-            this.lblQuality.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuality.Location = new System.Drawing.Point(7, 94);
+            this.lblQuality.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQuality.Location = new System.Drawing.Point(5, 88);
             this.lblQuality.Name = "lblQuality";
-            this.lblQuality.Size = new System.Drawing.Size(153, 17);
+            this.lblQuality.Size = new System.Drawing.Size(132, 15);
             this.lblQuality.TabIndex = 0;
             this.lblQuality.Text = "JPG Quality Percentage:";
             // 
@@ -340,11 +342,11 @@
             // lblHeight
             // 
             this.lblHeight.AutoSize = true;
-            this.lblHeight.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeight.Location = new System.Drawing.Point(7, 62);
+            this.lblHeight.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHeight.Location = new System.Drawing.Point(5, 58);
             this.lblHeight.Name = "lblHeight";
             this.lblHeight.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblHeight.Size = new System.Drawing.Size(81, 17);
+            this.lblHeight.Size = new System.Drawing.Size(71, 15);
             this.lblHeight.TabIndex = 0;
             this.lblHeight.Text = "Max Height:";
             this.lblHeight.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -357,30 +359,30 @@
             this.gbImageDetails.Controls.Add(this.lblQuality);
             this.gbImageDetails.Controls.Add(this.lblHeight);
             this.gbImageDetails.Controls.Add(this.lblWidth);
-            this.gbImageDetails.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbImageDetails.Location = new System.Drawing.Point(17, 95);
+            this.gbImageDetails.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbImageDetails.Location = new System.Drawing.Point(15, 95);
             this.gbImageDetails.Name = "gbImageDetails";
-            this.gbImageDetails.Size = new System.Drawing.Size(233, 128);
+            this.gbImageDetails.Size = new System.Drawing.Size(195, 116);
             this.gbImageDetails.TabIndex = 22;
             this.gbImageDetails.TabStop = false;
             this.gbImageDetails.Text = "Image Details";
             // 
             // lQuality
             // 
-            this.lQuality.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lQuality.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lQuality.Increment = new decimal(new int[] {
             5,
             0,
             0,
             0});
-            this.lQuality.Location = new System.Drawing.Point(165, 92);
+            this.lQuality.Location = new System.Drawing.Point(145, 85);
             this.lQuality.Minimum = new decimal(new int[] {
             5,
             0,
             0,
             0});
             this.lQuality.Name = "lQuality";
-            this.lQuality.Size = new System.Drawing.Size(55, 25);
+            this.lQuality.Size = new System.Drawing.Size(42, 22);
             this.lQuality.TabIndex = 5;
             this.lQuality.Value = new decimal(new int[] {
             75,
@@ -390,8 +392,9 @@
             // 
             // lWidth
             // 
-            this.lWidth.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lWidth.Location = new System.Drawing.Point(90, 29);
+            this.lWidth.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lWidth.Location = new System.Drawing.Point(92, 25);
+            this.lWidth.Margin = new System.Windows.Forms.Padding(0);
             this.lWidth.Maximum = new decimal(new int[] {
             2000,
             0,
@@ -403,7 +406,7 @@
             0,
             0});
             this.lWidth.Name = "lWidth";
-            this.lWidth.Size = new System.Drawing.Size(130, 25);
+            this.lWidth.Size = new System.Drawing.Size(95, 22);
             this.lWidth.TabIndex = 3;
             this.lWidth.Value = new decimal(new int[] {
             800,
@@ -413,8 +416,8 @@
             // 
             // lHeight
             // 
-            this.lHeight.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lHeight.Location = new System.Drawing.Point(90, 58);
+            this.lHeight.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lHeight.Location = new System.Drawing.Point(92, 55);
             this.lHeight.Maximum = new decimal(new int[] {
             2000,
             0,
@@ -426,7 +429,7 @@
             0,
             0});
             this.lHeight.Name = "lHeight";
-            this.lHeight.Size = new System.Drawing.Size(130, 25);
+            this.lHeight.Size = new System.Drawing.Size(95, 22);
             this.lHeight.TabIndex = 4;
             this.lHeight.Value = new decimal(new int[] {
             600,
@@ -437,10 +440,10 @@
             // lblWidth
             // 
             this.lblWidth.AutoSize = true;
-            this.lblWidth.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWidth.Location = new System.Drawing.Point(6, 31);
+            this.lblWidth.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWidth.Location = new System.Drawing.Point(5, 28);
             this.lblWidth.Name = "lblWidth";
-            this.lblWidth.Size = new System.Drawing.Size(76, 17);
+            this.lblWidth.Size = new System.Drawing.Size(67, 15);
             this.lblWidth.TabIndex = 0;
             this.lblWidth.Text = "Max Width:";
             this.lblWidth.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -449,7 +452,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(566, 315);
+            this.ClientSize = new System.Drawing.Size(504, 297);
             this.Controls.Add(this.lnkImageFolder);
             this.Controls.Add(this.StatusStripEvents);
             this.Controls.Add(this.menuStrip1);
@@ -465,8 +468,8 @@
             this.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(582, 353);
-            this.MinimumSize = new System.Drawing.Size(582, 353);
+            this.MaximumSize = new System.Drawing.Size(520, 335);
+            this.MinimumSize = new System.Drawing.Size(520, 335);
             this.Name = "InputForm";
             this.Text = "WIC";
             this.Load += new System.EventHandler(this.InputForm_Load);
