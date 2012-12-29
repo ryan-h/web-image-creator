@@ -9,7 +9,7 @@ using System.Drawing;
 
 namespace WebImageCreator.Core
 {
-    public class CreationProcessor
+    class CreationProcessor
     {
         #region Private Members
 
@@ -169,6 +169,7 @@ namespace WebImageCreator.Core
         {
             FileInfo fiImageFile = null;
             byte[] arrNewImageData = null;
+            String szNewImagePath = "";
 
             try
             {
@@ -190,7 +191,7 @@ namespace WebImageCreator.Core
                 }
 
                 //get the path and name for the new image
-                String szNewImagePath = Path.Combine(fiImageFile.DirectoryName, _objInputData.NewFolderName, Core.ImageCreator.GetNewImageName(Path.GetFileName(szFilePath), _objInputData.FileNameSuffix));
+                szNewImagePath = Path.Combine(fiImageFile.DirectoryName, _objInputData.NewFolderName, Core.ImageCreator.GetNewImageName(Path.GetFileName(szFilePath), _objInputData.FileNameSuffix));
 
                 //save the image file to disk
                 File.WriteAllBytes(szNewImagePath, arrNewImageData);

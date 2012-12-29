@@ -3,17 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Runtime.InteropServices;
-using System.Diagnostics;
-using System.IO;
 using System.Windows.Forms;
-using System.ComponentModel;
-using System.Drawing;
-using System.Drawing.Imaging;
 
 namespace WebImageCreator.Core
 {
-    public class Common
+    class Common
     {
         /// <summary>
         /// Gets the current InputForm.

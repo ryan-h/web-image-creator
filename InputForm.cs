@@ -12,7 +12,7 @@ using System.IO;
 
 namespace WebImageCreator
 {
-    public partial class InputForm : Form
+    partial class InputForm : Form
     {
         #region Private Members
 
@@ -168,7 +168,7 @@ namespace WebImageCreator
                                 //display process result
                                 if (_objCancelTokenSource.IsCancellationRequested)
                                 {
-                                    Core.StatusMessage.Write(Core.StatusMessage.EventType.Warning, String.Format("Image creation has been stopped ({0} image{1} created).", _nImagesCreatedCnt, (_nImagesCreatedCnt > 1 ? "s were" : "was")));
+                                    Core.StatusMessage.Write(Core.StatusMessage.EventType.Warning, String.Format("Image creation has been stopped ({0} image{1} created).", _nImagesCreatedCnt, (_nImagesCreatedCnt > 1 ? "s were" : " was")));
                                     lnkImageFolder.Visible = true;
                                 }
                                 else
@@ -205,7 +205,7 @@ namespace WebImageCreator
                                             }
                                             else
                                             {
-                                                Core.StatusMessage.Write(Core.StatusMessage.EventType.Warning, String.Format("1 image out of {0} were created successfully. See log for more details.", (_nImagesCreatedCnt + _nImagesErrorCnt)));
+                                                Core.StatusMessage.Write(Core.StatusMessage.EventType.Warning, String.Format("1 image out of {0} was created successfully. See log for more details.", (_nImagesCreatedCnt + _nImagesErrorCnt)));
                                             }
                                         }
                                         lnkImageFolder.Visible = true; //show the link to the root image folder
@@ -259,7 +259,7 @@ namespace WebImageCreator
                 _szLastProcessedFolderPath = objInputData.RootFolderPath;
 
                 //start the new process for creating the images
-                this._objCancelTokenSource = new CancellationTokenSource();
+                _objCancelTokenSource = new CancellationTokenSource();
                 Task.Factory.StartNew(() => objProcessor.Process(_objCancelTokenSource.Token), TaskCreationOptions.AttachedToParent);
             }
             catch (Exception ex)

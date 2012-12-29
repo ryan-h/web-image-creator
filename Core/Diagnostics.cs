@@ -8,12 +8,13 @@ using System.Collections.Concurrent;
 
 namespace WebImageCreator.Core
 {
-    public class Diagnostics
+    class Diagnostics
     {
         #region Private Members
 
         private static BlockingCollection<Error> _objErrorsQueue = new BlockingCollection<Error>();
         private static Thread _thLogWorker = null;
+        private static Object _objThLock = new Object();
 
         #endregion
 
@@ -50,13 +51,9 @@ namespace WebImageCreator.Core
         {
             try
             {
-                if (_thLogWorker == null)
-                {
-                    InitializeLogWorker();
-                }
+                EnsureLogWorker();
 
-                //queue the error to be written to file
-                _objErrorsQueue.Add(new Error(szMessage, szComponent));
+                _objErrorsQueue.Add(new Error(szMessage, szComponent)); //queue the error to be written to file
 
                 if (bDisplayStatusMsg)
                 {   //show generic status message
@@ -89,17 +86,23 @@ namespace WebImageCreator.Core
 
         #region Private Methods
 
-        private static void InitializeLogWorker()
+        private static void EnsureLogWorker()
         {
-            _thLogWorker = new Thread(() =>
+            lock (_objThLock)
             {
-                foreach (Error objError in _objErrorsQueue.GetConsumingEnumerable())
+                if (_thLogWorker == null)
                 {
-                    AppendToLog(objError);
+                    _thLogWorker = new Thread(() =>
+                    {
+                        foreach (Error objError in _objErrorsQueue.GetConsumingEnumerable())
+                        {
+                            AppendToLog(objError);
+                        }
+                    });
+                    _thLogWorker.IsBackground = true;
+                    _thLogWorker.Start();
                 }
-            });
-            _thLogWorker.IsBackground = true;
-            _thLogWorker.Start();
+            }
         }
 
         private static void AppendToLog(Error objError)

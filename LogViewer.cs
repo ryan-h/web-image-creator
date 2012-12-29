@@ -12,7 +12,7 @@ using System.Configuration;
 
 namespace WebImageCreator
 {
-    public partial class LogViewer : Form
+    partial class LogViewer : Form
     {
         public LogViewer()
         {
