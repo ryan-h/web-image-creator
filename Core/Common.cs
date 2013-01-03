@@ -16,14 +16,14 @@ namespace WebImageCreator.Core
         public static InputForm GetInputForm()
         {
             try
-	        {
+            {
                 return Application.OpenForms.OfType<InputForm>().FirstOrDefault();
-	        }
-	        catch (Exception ex)
-	        {
+            }
+            catch (Exception ex)
+            {
                 Core.Diagnostics.LogException(ex, "Core.Common.GetInputForm", false);
                 return null;
-	        }
+            }
         }
 
         /// <summary>

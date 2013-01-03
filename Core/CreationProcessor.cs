@@ -168,7 +168,7 @@ namespace WebImageCreator.Core
         private void ProcessImage(String szFilePath)
         {
             FileInfo fiImageFile = null;
-            byte[] arrNewImageData = null;
+            Byte[] arrNewImageData = null;
             String szNewImagePath = "";
 
             try
@@ -178,7 +178,7 @@ namespace WebImageCreator.Core
                 //do not process system and hidden files
                 if (fiImageFile.Attributes.HasFlag(FileAttributes.System | FileAttributes.Hidden))
                 {
-                    this.OnFileProcessed.Invoke(fiImageFile.Name, FileProcessResult.Skipped);
+                    this.InvokeFileProcessed(fiImageFile.Name, FileProcessResult.Skipped);
                     return;
                 }
 
@@ -200,7 +200,7 @@ namespace WebImageCreator.Core
             }
             catch (Exception ex)
             {
-                this.OnFileProcessed.Invoke((fiImageFile != null ? fiImageFile.Name : ""), FileProcessResult.Error);
+                this.InvokeFileProcessed((fiImageFile != null ? fiImageFile.Name : ""), FileProcessResult.Error);
                 Core.Diagnostics.LogException(ex, String.Format("Core.CreationProcessor.ProcessImage{0}", (fiImageFile != null ? " -> " + fiImageFile.Name : "")), false);
             }
         }
